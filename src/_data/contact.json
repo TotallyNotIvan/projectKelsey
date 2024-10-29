@@ -1,20 +1,20 @@
 {
     "items": [
         {
-            "name": "test@example.com",
-            "link": "mailto:test@example.com"
+            "name": "TotallyNotIvan@icloud.com",
+            "link": "TotallyNotIvan@icloud.com"
         },
         {
-            "name": "Twitter",
+            "name": "GitHub",
+            "link": "https://twitter.com/…"
+        },
+        {
+            "name": "Peter Parrish",
             "link": "https://twitter.com/…"
         },
         {
             "name": "GitHub",
-            "link": "https://github.com/…"
-        },
-        {
-            "name": "CodePen",
-            "link": "https://codepen.io/…"
+            "link": "https://twitter.com/…"
         }
     ]
 }
