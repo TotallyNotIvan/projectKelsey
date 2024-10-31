@@ -38,6 +38,9 @@
       <h1 class="text-3xl mb-8">{{title}}</h1>
       {{ content | safe }}
     </main>
+    <aside class="sidebar">
+        {% include "layouts/sidebar.njk" %}
+    </aside>
     <script src="/assets/main.js"></script>
   </body>
 </html>
