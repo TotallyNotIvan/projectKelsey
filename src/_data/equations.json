@@ -1,0 +1,34 @@
+{
+    "equations": [
+      {
+        "subject": "Physics",
+        "equation": "F = m * a",
+        "variables": [
+          { "symbol": "F", "name": "Force", "unit": "N" },
+          { "symbol": "m", "name": "Mass", "unit": "kg" },
+          { "symbol": "a", "name": "Acceleration", "unit": "m/s²" }
+        ]
+      },
+      {
+        "subject": "Electrical Engineering",
+        "equation": "V = I * R",
+        "variables": [
+          { "symbol": "V", "name": "Voltage", "unit": "V" },
+          { "symbol": "I", "name": "Current", "unit": "A" },
+          { "symbol": "R", "name": "Resistance", "unit": "Ω" }
+        ]
+      },
+      {
+        "subject": "Chemistry",
+        "equation": "PV = nRT",
+        "variables": [
+          { "symbol": "P", "name": "Pressure", "unit": "Pa" },
+          { "symbol": "V", "name": "Volume", "unit": "m³" },
+          { "symbol": "n", "name": "Amount of Substance", "unit": "mol" },
+          { "symbol": "R", "name": "Ideal Gas Constant", "unit": "J/(mol·K)" },
+          { "symbol": "T", "name": "Temperature", "unit": "K" }
+        ]
+      }
+    ]
+  }
+  
