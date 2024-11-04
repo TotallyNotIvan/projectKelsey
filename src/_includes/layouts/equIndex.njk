@@ -6,28 +6,11 @@
     <link rel="stylesheet" type="text/css" href="/assets/main.css" />
 
     <script>  
-      // Remove this script if you don't need the dark mode toggle  
-      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      // Check the user's system preference or stored preference and set dark mode
       if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark')
-        
+        document.documentElement.classList.add('dark');
       } else {
-        document.documentElement.classList.remove('dark')
-      }
-
-      const toggleDarkMode = function(){
-        if (document.documentElement.classList.contains('dark')) {
-          document.documentElement.classList.remove('dark');
-          localStorage.theme = 'light';      
-        } else {
-          document.documentElement.classList.add('dark')
-          localStorage.theme = 'dark'
-        }
-      };   
-
-      const forgetPref = function(){
-        localStorage.removeItem('theme')
-        window.location.reload()
+        document.documentElement.classList.add('dark'); // Force dark mode if no preference is set
       }
     </script>
 
