@@ -143,5 +143,4 @@ https://11ty.io/
 
 https://tailwindcss.com
 
-
-11/7/24 Push to origin try*
+11/07/24 reverted to older version without equIndexPOCusingGPT merge attempt
